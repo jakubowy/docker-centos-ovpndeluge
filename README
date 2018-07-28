@@ -1,0 +1,2 @@
+run command:
+docker run --rm -it --device=/dev/net/tun --cap-add=NET_ADMIN --name disposable_openvpn delugeovpn:latest bash
